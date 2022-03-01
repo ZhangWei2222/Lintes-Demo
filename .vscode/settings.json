@@ -1,0 +1,16 @@
+{
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur",
+    "editor.formatOnSave": true // 文件保存自动格式化
+  },
+  // prettier插件配置
+  "prettier.semi": true, // 是否有结尾的分号
+  "prettier.singleQuote": false, // 是否强制所有的引号变成单引号
+  // vetur插件配置
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,   // 是否有结尾的分号
+      "singleQuote": true 
+    },
+  },
+}
